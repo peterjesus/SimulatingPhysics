@@ -1,2 +1,3 @@
 # SimulatingPhysics
-Numerical simulations on didactic physics problems
+
+Project focused on numerical simulations on didactic physics problems
