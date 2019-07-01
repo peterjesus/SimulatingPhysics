@@ -6,7 +6,7 @@ Project focused on numerical simulations on didactic typical-physics problems.
 
 The list of the main solved problems is:
 
-* `Logistic Equation and Chaotic Behaviour`  
+* `Logistic Equation and Chaotic Behavior`  
 * `Atomic Linear-Chain Vibration`
 * `Molecular Vibration` 
 * `Neutron Transport and Collision` 
