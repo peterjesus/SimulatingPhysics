@@ -16,7 +16,7 @@ The list of the main solved problems is:
 * `Ising Model`
 * `Particles Transport and Collision`
 
-Additionally, there is an extra set of exercises about `Chaos Theory`, in which some topics like logistic equation(again!), dynamic systems and centers are coded.
+Additionally, there is an extra set of exercises about `Chaos Theory`, in which some topics like logistic equation(again!), dynamic systems, centers and fractals(Sierpinski carpet's fractal dimension) are coded.
 
 ## Notes
 
