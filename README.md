@@ -1,18 +1,18 @@
 # SimulatingPhysics
 
-Project focused on numerical simulations on didactic physics problems.
+Project focused on numerical simulations on didactic typical-physics problems.
 
 ## List of the analyzed problems
 
-* `Logistic Equation` --  
-* `Linear Chain Vibration` -- 
-* `Molecular Vibration` -- 
-* `Neutron Transport` -- 
-* `Random Numbers` -- 
-* `Percolation` -- 
-* `Fractals` -- 
-* `Ising Model` -- 
-* `Particles Transport` -- 
+* `Logistic Equation`  
+* `Linear Chain Vibration`
+* `Molecular Vibration` 
+* `Neutron Transport` 
+* `Random Numbers`
+* `Percolation` 
+* `Fractals` 
+* `Ising Model`
+* `Particles Transport`
 
 ## Notes
 
