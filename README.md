@@ -16,8 +16,9 @@ The list of the main solved problems is:
 * `Ising Model`
 * `Particles Transport and Collision`
 
-Additionally, there is an extra set of exercises about `Dynamic Systems`, in which some topics like logistic equation and chaos(again!), centers and fractals(Sierpinski carpet's fractal dimension) are coded.
+Additionally, there is an extra set of exercises about `Chaos and Dynamic Systems`, in which some topics like logistic equation and chaos(again!), centers and fractals(Sierpinski carpet's fractal dimension) are coded.
 
 ## Notes
 
 The description of the algorithms used and the mathematical tips employed for each problem appear (in spanish) on its corresponding documentation.
+
