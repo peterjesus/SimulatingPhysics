@@ -1,0 +1,50 @@
+
+```{r,echo=FALSE}
+
+# Ejercicio 1
+#Realizar un programa numerico que dibuje las soluciones graficas de la curva logistica.
+
+
+eclogistica = function(a, x0) {
+  
+x=seq(0,1,0.01)
+
+#Definimos y dibujamos ecuacion logistica y la recta bisectriz
+
+f=a*x*(1-x)
+plot(x,f,col=2,type="l",xlab="x_k",ylab="x_(k+1)/logistica",main=paste("mu=",round(a,4),"x0=",round(x0,4)))
+     
+lines(x,x,col=3,type="l")
+
+
+n = 2000    
+y = rep(0, n)
+x = rep(0, n)
+
+#Valores iniciales
+
+x[1] = x0
+y[1] = a * x[1] * (1 - x[1])
+segments(x[1],0,x[1],y[1],col=4,lty=2)
+
+#Bucle. Obtenemos x_(k+1) a partir de x_k , teniendo asi nuestro sistema dinamico discreto
+
+  for (i in 2:n) {   
+    x[i] = y[i-1]
+    y[i] = a * x[i] * (1 - x[i])
+      
+     segments(x[i-1],y[i-1],y[i-1],y[i-1],col=4,lty=2)
+     segments(y[i-1],y[i-1],x[i],y[i],col=4,lty=2)
+  }
+
+  for (i in 1500:2000){
+     segments(x[i-1],y[i-1],y[i-1],y[i-1],col=6)
+     segments(y[i-1],y[i-1],x[i],y[i],col=6)
+  }
+
+}
+
+
+eclogistica(3.2,0.1)
+
+```

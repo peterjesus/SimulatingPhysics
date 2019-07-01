@@ -1,0 +1,25 @@
+
+```{r,echo=FALSE}
+
+#Ejercicio 2
+#Comprobar graficamente que la cuenca de atraccion en el caso anterior es todo el intervalo [0,1] (0=<mu<=1)
+
+#Utilizamos la ecuacion definida anteriormente con los parametro indicados por el ejercicio para comprobarlo
+mu=runif(1,0,1)
+x0=runif(1,0,1)
+eclogistica(mu,x0)
+#mu=0.889137 , x0=0.461995
+
+
+
+#Ejercicio3
+#Comprobar graficamente que x=(mu-1)/mu es un atractor para todo x perteneciente a ]0,1[ para este rango de mu (1<mu<=3)
+
+#Utilizamos la ecuacion definida anteriormente con los parametro indicados por el ejercicio para comprobarlo
+mu=runif(1,1,3)
+x0=runif(1,0.01,0.99)
+eclogistica(mu,x0)
+#mu=2.897905, x0=0.28666655
+locator(1)
+#vemos como nuestro atractor cumple la condicion dada
+``
